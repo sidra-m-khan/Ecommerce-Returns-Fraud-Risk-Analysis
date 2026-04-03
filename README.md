@@ -57,8 +57,8 @@ The dashboard provides a clear, executive-level view of key performance indicato
 -  Dashboard Preview
 
 
-- ![Dashboard Preview](https://github.com/sidra-m-khan/Ecommerce-Returns-Fraud-Risk-Analysis/blob/main/Images/Screenshot%202026-04-02%20180753.png)
-
+- ![Dashboard Preview]((https://github.com/sidra-m-khan/Ecommerce-Returns-Fraud-Risk-Analysis/blob/main/Images/Screenshot%202026-04-03%20154547.png)
+  
 # Key Insights
 
 - A limited number of users (52 high-risk users) contribute significantly to fraud risk.
