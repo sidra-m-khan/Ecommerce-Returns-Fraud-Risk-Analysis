@@ -1,74 +1,96 @@
-#  Ecommerce-Returns-Fraud-Risk-Analysis
+### E-commerce Returns & Fraud Risk Analysis Dashboard
 
- ## Project Overview:
- 
- This project analyzes e-commerce return behavior and identifies potential fraud risk patterns using real-world transactional data.  
- 
- The goal is to uncover:
- - High-risk users
- - Return behavior patterns
- - Revenue loss due to fraudulent returns
+## Project Overview
 
- Key Skills Demonstrated
-- Advanced Excel (Data Cleaning & Transformation)
-- SQL (Data Analysis & Aggregation)
-- Power BI (Dashboard & Data Visualization)
+This project presents an interactive Power BI dashboard designed to analyze e-commerce returns and fraud risk patterns. The goal is to help businesses identify high-risk transactions, understand return behavior, and make data-driven decisions to reduce losses and improve operational efficiency.
 
----
+The dashboard provides a clear, executive-level view of key performance indicators (KPIs), trends, and risk segmentation.
 
-##  Tools & Technologies
-- Excel (Power Query, Data Cleaning)
-- SQL (Data Analysis)
-- Power BI (Dashboard Design)
+# Objectives
+Analyze return patterns across products and time.
+Identify high-risk users and potential fraudulent behavior.
+Monitor key business KPIs such as revenue and order volume.
+Support decision-making with interactive visual insights.
 
----
+# Dashboard Features
 
-##  Key Analysis Performed
+# KPI Summary
+Total Revenue: $1.97M
+Total Orders: 2,539
+Fraud Score: 3.04
+High-Risk Users: 52
 
-### 1. Fraud Risk Segmentation
-- Categorized users into Medium and High Risk.
-- Identified high concentration of users in specific risk groups.
+# Returns Analysis
+Track return trends over time.
+Identify categories with the highest return rates.
+Understand patterns affecting return behavior.
 
-### 2. Revenue Loss Analysis
-- Total Revenue Lost: **$1.97M**.
-- High-risk users contribute significantly to losses.
+# Fraud Risk Insights
+Fraud score analysis across users.
+Detection of high-risk customers.
+Patterns linking returns with fraud risk.
 
-### 3. Return Behavior Analysis
-- Majority of returns occur after **15+ days**.
-- Late returns may indicate fraudulent behavior.
+# Interactive Features
+Dynamic filters (date, category, user segments).
+Drill-down capabilities for deeper analysis.
+Clean and user-friendly dashboard layout.
 
-### 4. User-Level Analysis
-- Identified users with highest fraud scores and return values.
+# Tools & Technologies
 
----
+Power BI – Data visualization and dashboard creation
+SQL – Data querying, analysis, and transformation
+Excel / CSV – Data source
+Power Query – Data cleaning and transformation
 
-##  Dashboard Features
-- Fraud Risk Distribution (Pie Chart)
-- Users by Risk Category (Bar Chart)
-- Return Behavior by Time (Column Chart)
-- KPI Card (Total Revenue Lost)
-- User-level detailed table
-- Date slicer for dynamic filtering
+📁 Project Structure
+- ecommerce-returns-fraud-dashboard
+ ┣ 📂 data
+ ┃ ┣ raw_data.csv
+ ┃ ┗ cleaned_data.csv
+ ┣ 📂 sql
+ ┃ ┗ queries.sql
+ ┣ 📂 powerbi
+ ┃ ┗ ecommerce_dashboard.pbix
+ ┣ 📂 images
+ ┃ ┗ dashboard_screenshots.png
+ ┗ README.md
+- Dashboard Preview
 
----
 
-##  Key Insights
-- A small number of users contribute to large revenue losses.
-- Late returns (15+ days) are strongly linked with fraud risk.
-- Fraud detection can reduce significant financial losses.
+![Dashboard Preview](https://github.com/sidra-m-khan/Ecommerce-Returns-Fraud-Risk-Analysis/blob/main/Images/Screenshot%202026-04-02%20180753.png)
 
-## 📁 Project Structure
+# Key Insights
+A limited number of users (52 high-risk users) contribute significantly to fraud risk.
+The fraud score of 3.04 indicates moderate risk requiring monitoring.
+Return behavior shows patterns linked to specific categories and time periods.
+Revenue performance ($1.97M) highlights strong sales but potential losses through returns.
 
-/data
-  raw_data.xlsx
-  
-  cleaned_data.xlsx
+# Business Impact
+Helps reduce losses from fraudulent transactions and excessive returns.
+Enables early identification of high-risk users.
+Improves return policy and operational decisions.
+Supports data-driven strategy for revenue protection.
 
-/sql
-  analysis_queries.sql
+# How to Use
+Download the .pbix file from the powerbi folder
+Open it in Power BI Desktop
+Use filters and slicers to explore the dashboard
+Analyze KPIs and uncover insights
 
-/powerbi
-  dashboard.pbix
+# Future Improvements
+Real-time data integration
+Machine learning-based fraud detection
+Advanced customer segmentation
+Predictive analytics for return trends
 
-/images
-  dashboard_screenshot.png
+# About Me
+
+Hi, I’m Sidra, a data enthusiast passionate about transforming raw data into meaningful insights. I specialize in building interactive dashboards and uncovering patterns that support better decision-making.
+
+📬 Connect With Me
+LinkedIn: (https://www.linkedin.com/in/sidra-khan610/)
+GitHub: (https://github.com/sidra-m-khan)
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub and feel free to share your feedback!
